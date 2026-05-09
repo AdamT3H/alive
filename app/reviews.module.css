@@ -1,0 +1,143 @@
+.ReviewBlock {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #F2EBE3;
+}
+
+.ReviewSlider {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    min-height: 600px;
+}
+
+.ReviewPhoto {
+background-size: cover;
+background-position: center;
+min-height: 600px;
+}
+
+.ReviewContent {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 60px 64px;
+}
+
+.ReviewTop {
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.ReviewTag {
+font-family: var(--font-inter);
+font-size: 11px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+color: #B0A090;
+}
+
+.ReviewTitle {
+font-family: var(--font-cormorant);
+font-size: 48px;
+font-weight: 300;
+color: #2C2420;
+line-height: 1.1;
+}
+
+.ReviewBody {
+display: flex;
+flex-direction: column;
+gap: 24px;
+}
+
+.ReviewText {
+font-family: var(--font-cormorant);
+font-size: 24px;
+font-weight: 300;
+color: #2C2420;
+line-height: 1.6;
+font-style: italic;
+}
+
+.ReviewMeta {
+display: flex;
+flex-direction: column;
+gap: 4px;
+padding-top: 20px;
+border-top: 0.5px solid #E8D5C4;
+}
+
+.ReviewName {
+font-family: var(--font-inter);
+font-size: 14px;
+font-weight: 400;
+color: #2C2420;
+}
+
+.ReviewRole {
+font-family: var(--font-inter);
+font-size: 12px;
+font-weight: 300;
+color: #B0A090;
+}
+
+.ReviewNav {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.NavBtn {
+font-family: var(--font-inter);
+font-size: 18px;
+font-weight: 300;
+color: #2C2420;
+background: transparent;
+border: 0.5px solid #E8D5C4;
+width: 44px;
+height: 44px;
+cursor: pointer;
+transition: background 0.2s;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.NavBtn:hover {
+background: #EDE8E3;
+}
+
+.NavCount {
+font-family: var(--font-inter);
+font-size: 12px;
+font-weight: 300;
+color: #B0A090;
+letter-spacing: 0.1em;
+}
+
+@media (max-width: 700px) {
+    .ReviewSlider {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+
+    .ReviewPhoto {
+        min-height: 320px;
+    }
+
+    .ReviewContent {
+        padding: 36px 24px;
+        gap: 32px;
+    }
+
+    .ReviewTitle {
+        font-size: 36px;
+    }
+
+    .ReviewText {
+        font-size: 20px;
+    }
+}

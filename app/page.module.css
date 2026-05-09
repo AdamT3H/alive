@@ -1,0 +1,923 @@
+.FirstBlock {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/IMG_2995.JPEG');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+  
+.FirstBlock::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.FirstBlock * {
+    position: relative;
+    z-index: 1;
+    color: #FAF7F4;
+    font-weight: 300;
+}
+  
+  
+.UpperTextFirst {
+    font-family: var(--font-inter);
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.UpperTextSecond {
+    font-family: var(--font-inter);
+    font-size: 14px;
+    letter-spacing: 0.15em;
+}
+
+.MainText {
+    font-family: var(--font-cormorant);
+    font-size: 96px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+
+.SubText {
+    font-family: var(--font-inter);
+    font-size: 15px;
+    line-height: 1.7;
+    opacity: 0.8;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.CTAButton {
+    font-family: var(--font-inter);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #FAF7F4;
+    border: 0.5px solid rgba(250, 247, 244, 0.5);
+    padding: 14px 32px;
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+}
+  
+.CTAButton:hover {
+    background: rgba(250, 247, 244, 0.1);
+    border-color: #FAF7F4;
+}
+
+.Container {
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Container2 {
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SecondBlock {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+  
+.MainBlockSec {
+    font-family: var(--font-cormorant);
+    font-size: 64px;
+    font-weight: 300;
+    color: #2C2420;
+    line-height: 1.1;
+    margin-bottom: 38px;
+}
+
+.TezaList {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+  
+.Teza {
+    font-family: var(--font-inter);
+    font-size: 15px;
+    font-weight: 300;
+    color: #2C2420;
+    line-height: 1.7;
+    padding: 18px 0;
+    border-bottom: 0.5px solid #E8D5C4;
+}
+  
+.TezaAccent {
+    font-family: var(--font-inter);
+    font-size: 15px;
+    font-weight: 400;
+    color: #2c242085;
+    line-height: 1.7;
+    padding-top: 24px;
+    font-style: italic;
+}
+
+.PhotoRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.PhotoItem {
+    overflow: hidden;
+    max-height: 300px;
+}
+
+.PhotoItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ThirdBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.ThirdContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+  
+.ThirdTitle {
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-weight: 300;
+    color: #2C2420;
+    line-height: 0.8;
+    text-align: center;
+    text-transform: uppercase;
+}
+  
+.ThirdTitle span {
+    font-style: italic;
+    font-size: 56px;
+    text-transform: lowercase;
+    font-family: var(--font-cormorant);
+}
+  
+.ThirdText {
+    font-family: var(--font-inter);
+    font-size: 15px;
+    font-weight: 300;
+    color: #5a4a40;
+    line-height: 1.8;
+    max-width: 400px;
+    text-align: center;
+}
+
+.ThirdTitleRow {
+    display: flex;
+    gap: 100px;
+    padding-top: 60px;
+    border-top: 0.5px solid #E8D5C4;
+}
+
+.CardsRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 100%;
+    margin-top: 60px;
+}
+  
+.Card {
+    background: #F2EBE3;
+    border: 0.5px solid #E8D5C4;
+    border-radius: 2px;
+    padding: 26px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+  
+.CardText {
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-weight: 300;
+    color: #5a4a40;
+    line-height: 1.7;
+    max-width: 300px;
+    text-align: center;
+}
+
+.FourthBlock {
+    width: 100%;
+    padding: 100px 24px;
+    display: flex;
+    justify-content: center;
+    background-image: url('/IMG_2996.JPEG');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 100px;
+}
+  
+.FourthBlock::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+  
+.FourthBlock .Container {
+    position: relative;
+    z-index: 2;
+}
+
+.FourthBlock .Container2 {
+    position: relative;
+    z-index: 2;
+}
+  
+.FourthTitle {
+    font-family: var(--font-cormorant);
+    font-size: 56px;
+    font-weight: 300;
+    color: #FAF7F4;
+    line-height: 1.1;
+    margin-bottom: 60px;
+}
+  
+.WeekList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+  
+.WeekItem {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    padding: 32px 0;
+    border-top: 0.5px solid rgba(250, 247, 244, 0.2);
+}
+  
+.WeekItem:last-of-type {
+    border-bottom: 0.5px solid rgba(250, 247, 244, 0.2);
+}
+  
+.WeekNum {
+    font-family: var(--font-cormorant);
+    font-size: 48px;
+    font-weight: 300;
+    color: rgba(250, 247, 244, 0.25);
+    min-width: 60px;
+    line-height: 1;
+}
+  
+.WeekContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 560px;
+}
+  
+.WeekName {
+    font-family: var(--font-inter);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FAF7F4;
+}
+  
+.WeekText {
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(250, 247, 244, 0.7);
+    line-height: 1.8;
+}
+  
+.WeekFooter {
+    font-family: var(--font-inter);
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(250, 247, 244, 0.638);
+    margin-top: 40px;
+    letter-spacing: 0.05em;
+}
+
+.FifthBlock {
+    width: 100%;
+    padding: 100px 24px;
+    display: flex;
+    justify-content: center;
+}
+  
+.FifthContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    max-width: 700px;
+    width: 100%;
+}
+  
+.FifthTitle {
+    font-family: var(--font-cormorant);
+    font-size: 62px;
+    font-weight: 300;
+    color: #2C2420;
+    line-height: 1.1;
+    text-align: center;
+}
+  
+.FifthSub {
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-weight: 300;
+    color: #433a35a6;
+    line-height: 1.7;
+    text-align: center;
+    max-width: 480px;
+}
+  
+.ResultList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 16px;
+    border-top: 0.5px solid #E8D5C4;
+}
+  
+.ResultItem {
+    font-family: var(--font-inter);
+    font-size: 15px;
+    font-weight: 300;
+    color: #5a4a40;
+    line-height: 1.7;
+    padding: 16px 0;
+    border-bottom: 0.5px solid #E8D5C4;
+}
+
+.SixthBlock {
+    width: 100%;
+    padding: 120px 24px;
+    display: flex;
+    justify-content: center;
+    background: #f3eee9;
+}
+  
+.SixthTitle {
+    font-family: var(--font-cormorant);
+    font-size: 56px;
+    font-weight: 300;
+    color: #2C2420;
+    margin-bottom: 60px;
+    line-height: 1.1;
+}
+  
+.TariffGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 0.5px solid #E8D5C4;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 100%;
+}
+  
+.TariffCard {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 40px 40px;
+    border-right: 0.5px solid #E8D5C4;
+    background: #FAF7F4;
+    position: relative;
+}
+  
+.TariffCard:last-child {
+    border-right: none;
+}
+  
+.TariffFeatured {
+    background: #fff;
+    border-right: 0.5px solid #E8D5C4;
+}
+  
+.TariffBadge {
+    font-family: var(--font-inter);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #8a7060;
+    position: absolute;
+    top: 40px;
+    right: 32px;
+  }
+  
+
+  
+.TariffTop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+.TariffIcon {
+    font-size: 20px;
+}
+  
+.TariffName {
+    font-family: var(--font-cormorant);
+    font-size: 32px;
+    font-weight: 300;
+    color: #2C2420;
+}
+  
+.TariffPrice {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding-bottom: 16px;
+    border-bottom: 0.5px solid #E8D5C4;
+}
+  
+.Price {
+    font-family: var(--font-cormorant);
+    font-size: 52px;
+    font-weight: 300;
+    color: #2C2420;
+    line-height: 1;
+}
+  
+.OldPrice {
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-weight: 300;
+    color: #B0A090;
+    text-decoration: line-through;
+}
+  
+.TariffDesc {
+    font-family: var(--font-inter);
+    font-size: 13px;
+    font-weight: 300;
+    color: #8a7060;
+    line-height: 1.6;
+}
+
+.TariffFeatures {
+    font-family: var(--font-inter);
+    font-size: 13px;
+    font-weight: 300;
+    color: #5a4a40;
+    line-height: 1.7;
+    flex: 1;
+}
+  
+.TariffBtn {
+    font-family: var(--font-inter);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2C2420;
+    border: 0.5px solid #C8B8A8;
+    padding: 14px 24px;
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+    margin-top: 8px;
+}
+  
+.TariffBtn:hover {
+    background: #F2EBE3;
+    border-color: #2C2420;
+}
+  
+.TariffFooter {
+    font-family: var(--font-inter);
+    font-size: 12px;
+    font-weight: 300;
+    color: #B0A090;
+    margin-top: 24px;
+    letter-spacing: 0.05em;
+}
+
+.AuthorBlock {
+    width: 100%;
+    padding: 100px 24px;
+    display: flex;
+    justify-content: center;
+}
+  
+.AuthorCollage {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+  
+.AuthorPhoto1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32%;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+}
+  
+.AuthorPhoto2 {
+    position: absolute;
+    top: 40px;
+    left: 34%;
+    width: 22%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+  
+.AuthorPhoto3 {
+    position: absolute;
+    bottom: 0;
+    left: 6%;
+    width: 24%;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+}
+  
+.AuthorPhoto4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 340px;
+    background-size: cover;
+    background-position: center;
+}
+  
+.AuthorTextBox1 {
+    position: absolute;
+    top: 60px;
+    right: 4%;
+    width: 26%;
+    background: #F2EBE3;
+    padding: 32px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+  
+.AuthorTextBox2 {
+    position: absolute;
+    bottom: 0;
+    left: 34%;
+    width: 34%;
+    background: #EDE8E3;
+    padding: 32px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+  
+.AuthorName {
+    font-family: var(--font-cormorant);
+    font-size: 42px;
+    font-weight: 300;
+    color: #2C2420;
+    line-height: 1.1;
+}
+  
+.AuthorDesc {
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-weight: 300;
+    color: #2c2420af;
+    line-height: 1.8;
+}
+  
+.AuthorRole {
+    font-family: var(--font-inter);
+    font-size: 11px;
+    font-weight: 300;
+    color: #B0A090;
+    letter-spacing: 0.05em;
+    padding-top: 12px;
+    border-top: 0.5px solid #E8D5C4;
+}
+
+.ClosingBlock {
+    width: 100%;
+    padding: 100px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1ece5;
+}
+
+.ClosingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.ClosingText {
+    font-family: var(--font-cormorant);
+    font-size: 56px;
+    font-weight: 300;
+    color: #2C2420;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.ClosingText em {
+    font-style: italic;
+    color: #8a7060;  /* ← приглушений акцент замість золотого */
+}
+
+.ClosingSubText {
+    font-family: var(--font-inter);
+    font-size: 15px;
+    font-weight: 300;
+    color: #2c24209c;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.ClosingBtn {
+    font-family: var(--font-inter);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2C2420;
+    border: 0.5px solid #C8B8A8;
+    padding: 16px 40px;
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+    margin-top: 8px;
+}
+
+.ClosingBtn:hover {
+    background: #E8D5C4;
+    border-color: #2C2420;
+}
+
+@media (max-width: 1000px) {
+    .TariffGrid {
+        grid-template-columns: 1fr;
+        border-radius: 8px;
+    }
+    
+    .TariffCard {
+        border-right: none;
+        border-bottom: 0.5px solid #E8D5C4;
+    }
+    
+    .TariffCard:last-child {
+        border-bottom: none;
+    }
+
+    .Price {
+        font-family: var(--font-cormorant);
+        font-size: 42px;
+        font-weight: 300;
+        color: #2C2420;
+        line-height: 1;
+    }
+
+    .AuthorCollage {
+        height: 800px;
+    }
+    
+    .AuthorPhoto1 {
+        width: 55%;
+        height: 280px;
+        top: 0;
+        left: 0;
+    }
+    
+    .AuthorPhoto2 {
+        width: 40%;
+        height: 200px;
+        top: 20px;
+        left: auto;
+        right: 0;
+    }
+    
+    .AuthorPhoto3 {
+        width: 42%;
+        height: 200px;
+        bottom: 250;
+        left: 0;
+    }
+    
+    .AuthorPhoto4 {
+        width: 38%;
+        height: 220px;
+        top: auto;
+        bottom: 200;
+        right: 0;
+    }
+    
+    .AuthorTextBox1 {
+        width: 52%;
+        top: auto;
+        bottom: 260px;
+        left: 44%;
+        right: auto;
+        padding: 20px 16px;
+    }
+    
+    .AuthorTextBox2 {
+        bottom: 0;
+        left: 0%;
+        width: 40%;
+        background: #EDE8E3;
+        padding: 32px 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+    
+    .AuthorName {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 600px) {
+    .MainBlockSec {
+        font-family: var(--font-cormorant);
+        font-size: 42px;
+        font-weight: 300;
+        color: #2C2420;
+        line-height: 1.1;
+        margin-bottom: 20px;
+    }
+
+    .PhotoRow {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .PhotoItemHide {
+        display: none;
+    }
+
+    .ThirdTitle span {
+        font-size: 48px;
+    }
+
+    .ThirdTitleRow {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 60px;
+        border-top: 0.5px solid #E8D5C4;
+    }
+
+    .Card {
+        border-radius: 2px;
+        padding: 20px 16px;
+    }
+
+    .FourthTitle {
+        font-family: var(--font-cormorant);
+        font-size: 46px;
+        font-weight: 300;
+        color: #FAF7F4;
+        line-height: 1.1;
+        margin-bottom: 60px;
+    }
+
+    .Container {
+        padding: 0 20px;
+    }
+
+    .Container2 {
+        padding: 0 0px;
+    }
+
+    .WeekItem {
+        gap: 0px;
+        padding: 28px 0;
+    }
+
+    .FifthTitle {
+        font-size: 42px;
+    }
+
+    .SixthTitle {
+        font-size: 42px;
+    }
+
+    .AuthorCollage {
+        position: relative;
+        width: 100%;
+        height: 1200px;
+    }
+
+
+    .AuthorCollage {
+        height: 750px;
+    }
+    
+    .AuthorPhoto1 {
+        width: 55%;
+        height: 280px;
+        top: 0;
+        left: 0;
+    }
+    
+    .AuthorPhoto2 {
+        width: 40%;
+        height: 200px;
+        top: 20px;
+        left: auto;
+        right: 0;
+    }
+    
+    .AuthorPhoto3 {
+        width: 42%;
+        height: 200px;
+        bottom: 250;
+        left: 0;
+    }
+    
+    .AuthorPhoto4 {
+        width: 38%;
+        height: 220px;
+        top: auto;
+        bottom: 200;
+        right: 0;
+    }
+    
+    .AuthorTextBox1 {
+        width: 62%;
+        height: fit-content;
+        top: 10;
+        left: 44%;
+        right: auto;
+        padding: 20px 16px;
+    }
+    
+    .AuthorTextBox2 {
+        bottom: 0;
+        left: 0%;
+        width: 80%;
+        background: #EDE8E3;
+        padding: 32px 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+    
+    .AuthorName {
+        font-size: 28px;
+    }
+
+    .ClosingBlock {
+        padding: 80px 24px;
+    }
+
+    .ClosingText {
+        font-size: 36px;
+    }
+
+    .ClosingSubText {
+        font-size: 14px;
+    }
+}
+
+

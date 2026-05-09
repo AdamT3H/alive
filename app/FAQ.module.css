@@ -1,0 +1,99 @@
+.FAQBlock {
+    width: 100%;
+    padding: 100px 24px;
+    display: flex;
+    justify-content: center;
+}
+  
+.Container {
+    max-width: 1200px;
+    width: 100%;
+}
+  
+.FAQTitle {
+    font-family: var(--font-cormorant);
+    font-size: 56px;
+    font-weight: 300;
+    color: #2C2420;
+    line-height: 1.1;
+    margin-bottom: 40px;
+}
+  
+.FAQList {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.5px solid #E8D5C4;
+}
+  
+.FAQItem {
+    border-bottom: 0.5px solid #E8D5C4;
+    overflow: hidden;
+}
+  
+.FAQQuestion {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    gap: 24px;
+}
+  
+.FAQQuestion span:first-child {
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 300;
+    color: #2C2420;
+    line-height: 1.5;
+}
+  
+.FAQIcon {
+    font-family: var(--font-inter);
+    font-size: 20px;
+    font-weight: 300;
+    color: #B0A090;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+  
+.FAQAnswer {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.4s ease;
+}
+  
+.FAQItemOpen .FAQAnswer {
+    grid-template-rows: 1fr;
+}
+
+.FAQAnswerInner {
+    overflow: hidden;  /* ← overflow тут, на прямому дочірньому */
+}
+
+.FAQAnswerInner p {
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-weight: 300;
+    color: #8a7060;
+    line-height: 1.8;
+    padding-bottom: 28px;
+    max-width: 640px;
+}
+
+@media (max-width: 600px) {
+    .FAQBlock {
+        padding: 60px 20px;
+    }
+
+    .FAQTitle {
+        font-size: 36px;
+    }
+
+    .FAQQuestion span:first-child {
+        font-size: 14px;
+    }
+}
