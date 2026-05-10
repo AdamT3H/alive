@@ -45,7 +45,7 @@
     font-size: 96px;
     line-height: 1;
     letter-spacing: -0.02em;
-    margin-bottom: 40px;
+    margin: 35px 0;
 }
 
 .SubText {
@@ -405,10 +405,10 @@
 .TariffGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 0.5px solid #E8D5C4;
-    border-radius: 16px;
     overflow: hidden;
     width: 100%;
+    gap: 50px;
+    padding: 30px
 }
   
 .TariffCard {
@@ -419,6 +419,13 @@
     border-right: 0.5px solid #E8D5C4;
     background: #FAF7F4;
     position: relative;
+    border-radius: 4px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.06);
+    transition: box-shadow 0.3s;
+}
+
+.TariffCard:hover {
+    box-shadow: 0 0px 40px rgba(0,0,0,0.14);
 }
   
 .TariffCard:last-child {
@@ -426,8 +433,13 @@
 }
   
 .TariffFeatured {
-    background: #fff;
+    background: #98d3f384;
     border-right: 0.5px solid #E8D5C4;
+    box-shadow: 0 0px 20px rgba(152, 211, 243, 0.35);
+}
+
+.TariffFeatured:hover {
+    box-shadow: 0 0px 40px rgba(152, 211, 243, 0.7);
 }
   
 .TariffBadge {

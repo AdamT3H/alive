@@ -20,7 +20,7 @@ export default function Home() {
           </div>
 
           <div className={styles.SubText}>
-            4-тижневий курс для жінок, які хочуть нарешті відчути своє життя зсередини. Не «стати кращою версією себе» — а просто згадати, яка ти є насправді
+            4-тижневий курс для жінок, які хочуть нарешті відчути своє життя зсередини. Не «стати кращою версією себе», а просто згадати, яка ти є насправді
           </div>
 
           <button className={styles.CTAButton}>
@@ -34,12 +34,12 @@ export default function Home() {
           <div className={styles.StartBlock}>
             <h2 className={styles.MainBlockSec}>Є таке відчуття…</h2>
             <div className={styles.TezaList}>
-              <p className={styles.Teza}>Ніби живеш, але не відчуваєш цього. День за днем, все як треба, але всередині якось порожньо.</p>
-              <p className={styles.Teza}>Ти думаєш, аналізуєш, плануєш, а смаку в цьому всьому так і немає.</p>
-              <p className={styles.Teza}>Ти вже пробувала: курси, терапія, марафони. Або стає легше на тиждень — або не стає взагалі.</p>
-              <p className={styles.Teza}>Ти не знаєш, чого хочеш. Або знаєш — але одразу тисяча причин, чому не можна.</p>
-              <p className={styles.Teza}>І десь глибоко: «я не живу своє життя. Я живу якесь інше».</p>
-              <p className={styles.TezaAccent}>Якщо хоч щось із цього — про тебе, тобі точно сюди.</p>
+              <p className={styles.Teza}>Ніби живеш, але не відчуваєш цього. День за днем, все як треба, але всередині якось порожньо</p>
+              <p className={styles.Teza}>Ти думаєш, аналізуєш, плануєш, а смаку в цьому всьому так і немає</p>
+              <p className={styles.Teza}>Ти вже пробувала: курси, терапія, марафони. Або стає легше на тиждень — або не стає взагалі</p>
+              <p className={styles.Teza}>Ти не знаєш, чого хочеш. Або знаєш — але одразу тисяча причин, чому не можна</p>
+              <p className={styles.Teza}>І десь глибоко: «я не живу своє життя. Я живу якесь інше»</p>
+              <p className={styles.TezaAccent}>Якщо хоч щось із цього — про тебе, тобі точно сюди</p>
             </div>
           </div>
         </div>
@@ -62,14 +62,14 @@ export default function Home() {
           <div className={styles.ThirdContent}>
             <h2 className={styles.ThirdTitle}>
               Це не ще один курс про те, як <br />
-              <span>«стати кращою».</span>
+              <span>«стати кращою»</span>
             </h2>
             <div className={styles.ThirdTitleRow}>
               <p className={styles.ThirdText}>
-                ALIVE — це про повернення. До себе. До свого тіла, своїх бажань, своєї природи. До того відчуття, коли ти живеш — і це відчувається.
+                ALIVE — це про повернення. До себе. До свого тіла, своїх бажань, своєї природи. До того відчуття, коли ти живеш — і це відчувається
               </p>
               <p className={styles.ThirdText}>
-                Я не буду вчити тебе бути правильною чи більш продуктивною. Ми підемо в інший бік — туди, де ти вже все знаєш. Просто десь по дорозі загубила.
+                Я не буду вчити тебе бути правильною чи більш продуктивною. Ми підемо в інший бік — туди, де ти вже все знаєш. Просто десь по дорозі загубила
               </p>
             </div>
 
@@ -99,28 +99,28 @@ export default function Home() {
               <span className={styles.WeekNum}>01</span>
               <div className={styles.WeekContent}>
                 <h3 className={styles.WeekName}>БАЧУ — Де я живу не своїм життям?</h3>
-                <p className={styles.WeekText}>Чесно подивитись на себе — де ти підлаштовуєшся, терпиш, вибираєш не себе. Розбираємо чужі сценарії, голоси і програми. Звідки вони взялись — і чому повторюються.</p>
+                <p className={styles.WeekText}>Чесно подивитись на себе — де ти підлаштовуєшся, терпиш, вибираєш не себе. Розбираємо чужі сценарії, голоси і програми. Звідки вони взялись — і чому повторюються</p>
               </div>
             </div>
             <div className={styles.WeekItem}>
               <span className={styles.WeekNum}>02</span>
               <div className={styles.WeekContent}>
                 <h3 className={styles.WeekName}>ВІДЧУВАЮ — Повернення в тіло і свою природу</h3>
-                <p className={styles.WeekText}>Коли ти перестаєш жити тільки в голові — починаєш відчувати, що тобі підходить. Працюємо з тілом, енергією, циклом. З'являється смак до життя — не як думка, а як справжнє відчуття.</p>
+                <p className={styles.WeekText}>Коли ти перестаєш жити тільки в голові — починаєш відчувати, що тобі підходить. Працюємо з тілом, енергією, циклом. З'являється смак до життя — не як думка, а як справжнє відчуття</p>
               </div>
             </div>
             <div className={styles.WeekItem}>
               <span className={styles.WeekNum}>03</span>
               <div className={styles.WeekContent}>
                 <h3 className={styles.WeekName}>ЦІНУЮ — Своє місце. Свої бажання. Себе.</h3>
-                <p className={styles.WeekText}>Ти перестаєш дивитись на себе крізь призму «недостатньо». Розбираємо порівняння, знецінення, страх бути собою. З'являється внутрішня опора — і відчуття «я маю право».</p>
+                <p className={styles.WeekText}>Ти перестаєш дивитись на себе крізь призму «недостатньо». Розбираємо порівняння, знецінення, страх бути собою. З'являється внутрішня опора — і відчуття «я маю право»</p>
               </div>
             </div>
             <div className={styles.WeekItem}>
               <span className={styles.WeekNum}>04</span>
               <div className={styles.WeekContent}>
                 <h3 className={styles.WeekName}>ЖИВУ — Це вже не про розуміння. Це про стан.</h3>
-                <p className={styles.WeekText}>Збираємо всі зміни в одну систему і закріплюємо нову точку. Ти — в центрі свого життя. Легко. По-жіночому. В кайф.</p>
+                <p className={styles.WeekText}>Збираємо всі зміни в одну систему і закріплюємо нову точку. Ти — в центрі свого життя. Легко. По-жіночому. В кайф</p>
               </div>
             </div>
           </div>
@@ -131,14 +131,14 @@ export default function Home() {
       <div className={styles.FifthBlock}>
         <div className={styles.Container2}>
           <div className={styles.FifthContent}>
-            <h2 className={styles.FifthTitle}>Через 4 тижні ти помітиш різницю.</h2>
+            <h2 className={styles.FifthTitle}>Через 4 тижні ти помітиш різницю</h2>
             <p className={styles.FifthSub}>Не «стала продуктивнішою» і не «нарешті зрозуміла себе». Щось інше — тихіше і глибше:</p>
             <div className={styles.ResultList}>
-              <p className={styles.ResultItem}>— Ти бачиш, де жила на автопілоті — і більше не хочеш так</p>
+              <p className={styles.ResultItem}>— Ти бачиш, де жила на автопілоті і більше не хочеш так</p>
               <p className={styles.ResultItem}>— Ти відчуваєш своє тіло і довіряєш йому</p>
-              <p className={styles.ResultItem}>— Ти знаєш, чого хочеш — і більше не соромишся цього</p>
+              <p className={styles.ResultItem}>— Ти знаєш, чого хочеш і більше не соромишся цього</p>
               <p className={styles.ResultItem}>— Ти перестаєш себе контролювати і починаєш собі довіряти</p>
-              <p className={styles.ResultItem}>— Ти живеш із внутрішньої опори — а не зі страху чи «так треба»</p>
+              <p className={styles.ResultItem}>— Ти живеш із внутрішньої опори, а не зі страху чи «так треба»</p>
               <p className={styles.ResultItem}>— Життя перестає бути схожим на боротьбу</p>
             </div>
           </div>
@@ -209,11 +209,11 @@ export default function Home() {
 
             <div className={styles.AuthorTextBox1}>
               <h2 className={styles.AuthorName}>Привіт,<br/>я Маша</h2>
-              <p className={styles.AuthorDesc}>Я знаю, як це — коли зовні все є, а зсередини порожньо. Коли живеш «правильно», але десь глибоко відчуваєш: це не моє життя.</p>
+              <p className={styles.AuthorDesc}>Я знаю, як це — коли зовні все є, а зсередини порожньо. Коли живеш «правильно», але десь глибоко відчуваєш: це не моє життя</p>
             </div>
 
             <div className={styles.AuthorTextBox2}>
-              <p className={styles.AuthorDesc}>Я пройшла свій шлях — через стосунки, де вибирала не себе, через переїзди і перезавантаження. Жіночість — це не те, що треба здобути. Це те, що треба просто перестати в собі душити.</p>
+              <p className={styles.AuthorDesc}>Я пройшла свій шлях — через стосунки, де вибирала не себе, через переїзди і перезавантаження. Жіночість — це не те, що треба здобути. Це те, що треба просто перестати в собі душити</p>
               <p className={styles.AuthorRole}>нумеролог · ментор · людина, яка дивиться на життя легко</p>
             </div>
 
@@ -230,11 +230,11 @@ export default function Home() {
           <p className={styles.ClosingText}>
             Якщо всередині є відчуття<br />
             <em>«так, це про мене»</em> —<br />
-            довірся йому.
+            довірся йому
           </p>
           <p className={styles.ClosingSubText}>
             Це і є той момент, коли ти вибираєш себе.<br />
-            Не «потім, коли буде час». Прямо зараз.
+            Не «потім, коли буде час». Прямо зараз
           </p>
           <button className={styles.ClosingBtn}>Хочу на курс →</button>
         </div>
