@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import styles from './reviews.module.css'
 
 const reviews = [
@@ -12,10 +12,16 @@ const reviews = [
 export function Reviews() {
   const [current, setCurrent] = useState(0)
 
+  // preload всіх фото одразу
+  useEffect(() => {
+    reviews.forEach((r) => {
+      const img = new Image()
+      img.src = r.photo
+    })
+  }, [])
+
   const prev = () => setCurrent((c) => (c === 0 ? reviews.length - 1 : c - 1))
   const next = () => setCurrent((c) => (c === reviews.length - 1 ? 0 : c + 1))
-
-  const review = reviews[current]
 
   return (
     <div className={styles.ReviewBlock}>
