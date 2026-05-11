@@ -202,8 +202,8 @@ export default function Home() {
         <div className={styles.Container}>
           <div className={styles.AuthorCollage}>
 
-            <div className={styles.AuthorPhoto1} style={{backgroundImage: "url('/IMG_9074.PNG')"}}></div>
-            <div className={styles.AuthorPhoto2} style={{backgroundImage: "url('/IMG_9027.PNG')"}}></div>
+            <div className={styles.AuthorPhoto1} style={{backgroundImage: "url('/IMG_9074.jpg')"}}></div>
+            <div className={styles.AuthorPhoto2} style={{backgroundImage: "url('/IMG_9027.jpg')"}}></div>
             <div className={styles.AuthorPhoto3} style={{backgroundImage: "url('/IMG_2998.JPEG')"}}></div>
             <div className={styles.AuthorPhoto4} style={{backgroundImage: "url('/IMG_2997.JPEG')"}}></div>
 
