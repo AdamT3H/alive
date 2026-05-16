@@ -3,10 +3,13 @@ import { useState, useEffect } from 'react'
 import styles from './reviews.module.css'
 
 const reviews = [
-  { photo: '/review1.jpeg' },
-  { photo: '/review2.jpeg' },
-  { photo: '/review3.jpeg' },
-  { photo: '/review4.jpeg' },
+  { photo: '/review1.PNG' },
+  { photo: '/review2.JPG' },
+  { photo: '/review3.PNG' },
+  { photo: '/review4.PNG' },
+  { photo: '/review5.PNG' },
+  { photo: '/review6.JPG' },
+  { photo: '/review7.PNG' },
 ]
 
 export function Reviews() {
