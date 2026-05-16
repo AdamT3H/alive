@@ -326,6 +326,8 @@
     color: rgba(250, 247, 244, 0.638);
     margin-top: 40px;
     letter-spacing: 0.05em;
+    max-width: 600px;
+    text-align: center;
 }
 
 .WeekList {
@@ -447,7 +449,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 40px 40px;
+    padding: 40px 30px;
     border-right: 0.5px solid #E8D5C4;
     background: #FAF7F4;
     position: relative;
@@ -743,6 +745,7 @@
     .TariffGrid {
         grid-template-columns: 1fr;
         border-radius: 8px;
+        padding: 20px
     }
     
     .TariffCard {
