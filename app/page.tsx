@@ -229,7 +229,6 @@ export default function Home() {
             </div>
 
           </div>
-          <p className={styles.TariffFooter}>Розстрочка 0% на 3 платежі — Монобанк, АБанк · Early bird: тільки перші 20 учасниць</p>
         </div>
       </div>
 

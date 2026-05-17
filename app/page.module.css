@@ -600,16 +600,6 @@
     background: #F2EBE3;
     border-color: #2C2420;
 }
-  
-.TariffFooter {
-    font-family: var(--font-inter);
-    font-size: 12px;
-    font-weight: 300;
-    color: #B0A090;
-    margin-top: 24px;
-    letter-spacing: 0.05em;
-    text-align: center;
-}
 
 .AuthorBlock {
     width: 100%;
