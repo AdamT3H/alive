@@ -160,6 +160,7 @@ export default function Home() {
       <div className={styles.SixthBlock}>
         <div className={styles.Container}>
           <h2 className={styles.SixthTitle}>Обери свій формат участі</h2>
+          <p className={styles.TariffFooter}>На кожному тарифі за посиланням є варіант розстрочки до 3х платежів</p>
           <div className={styles.TariffGrid}>
 
             <div className={styles.TariffCard}>
