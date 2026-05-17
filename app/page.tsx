@@ -65,10 +65,10 @@ export default function Home() {
             </h2>
             <div className={styles.ThirdTitleRow}>
               <p className={styles.ThirdText}>
-                ALIVE – це про повернення життя, енергію, бажання, впевненість, щастя, любов, реалізацію через контакт з собою та своєю істинною жіночою суттю
+                ALIVE – це про повернення себе. Час відчути справжню живість та енергію життя, замість безкінечних трансформацій
               </p>
               <p className={styles.ThirdText}>
-                Тут не буде гонки за «ідеальною версією себе». Ми підемо в інший бік – до себе. Щоб створити міцний фундамент на все життя.
+                Тут не буде гонки за «ідеальною версією себе», бо проблема ніколи не була в тому, що ти недостатня
               </p>
             </div>
 
@@ -130,7 +130,7 @@ export default function Home() {
                 <h3 className={styles.WeekName}>ЖИВУ – нове внутрішнє життя, яке відчувається твоїм, інтеграція змін</h3>
                 <p className={styles.WeekResult}>Результат тижня</p>
                 <p className={styles.WeekText}>
-                  Ти виходиш із курсу з відчуттям внутрішньої ясності, контакту із собою та розумінням, як будувати життя, у якому є ти, твої бажання, твій стан і твоя опора. Життя відчувається легко, спокійно та по-справжньому твоїм
+                  Ти виходиш із курсу з відчуттям внутрішньої ясності, контакту із собою та розумінням, як будувати життя, у якому є ти. Перехід на іншу гілку ймовірності та укріплений звʼязок з Богом, Всесвітом. Життя відчувається легко, спокійно та по-справжньому твоїм
                 </p>
               </div>
             </div>
@@ -172,7 +172,13 @@ export default function Home() {
                 <span className={styles.OldPrice}>$139</span>
               </div>
               <p className={styles.TariffDesc}>Для тих, хто хоче пройти цей шлях у своєму темпі</p>
-              <p className={styles.TariffFeatures}>4 модулі курсу • 8 записаних уроків • практики до кожного модуля • PDF-гайди • чек-листи • доступ до матеріалів на 2 місяці</p>
+              <div className={styles.TariffFeatures}>
+                <div className={styles.TariffFeature}>4 модулі курсу</div>
+                <div className={styles.TariffFeature}>8 записаних уроків</div>
+                <div className={styles.TariffFeature}>Практики до кожного модуля</div>
+                <div className={styles.TariffFeature}>PDF-гайди та чек-листи</div>
+                <div className={styles.TariffFeature}>Доступ до матеріалів — 2 місяці</div>
+              </div>
               <button className={styles.TariffBtn}>Хочу на курс →</button>
             </div>
 
@@ -187,7 +193,15 @@ export default function Home() {
                 <span className={styles.OldPrice}>$249</span>
               </div>
               <p className={styles.TariffDesc}>Для тих, хто хоче прожити глибоку внутрішню трансформацію з підтримкою</p>
-              <p className={styles.TariffFeatures}>Усе з SELF + аудіо-подкасти на додаткові теми • 4 групові онлайн-зустрічі раз на тиждень • закритий чат учасниць із моєю підтримкою • першим 20 учасницям інтенсив у подарунок • доступ до матеріалів – 4 місяці</p>
+              <div className={styles.TariffFeatures}>
+                <div className={styles.TariffFeature}>Усе з SELF</div>
+                <div className={styles.TariffFeature}>Аудіо-подкасти на додаткові теми</div>
+                <div className={styles.TariffFeature}>4 групові онлайн-зустрічі раз на тиждень</div>
+                <div className={styles.TariffFeature}>Закритий чат учасниць із моєю підтримкою</div>
+                <div className={styles.TariffFeature}>Розбори ваших ситуацій</div>
+                <div className={styles.TariffFeature}>Доступ до матеріалів – 4 місяці</div>
+              </div>
+              <p className={styles.TariffBonus}>Перші 10 учасниць додатково отримують доступ до 7-денного інтенсиву</p>
               <button className={styles.TariffBtn}>Хочу на курс →</button>
             </div>
 
@@ -201,7 +215,16 @@ export default function Home() {
                 <span className={styles.OldPrice}>$1299</span>
               </div>
               <p className={styles.TariffDesc}>Для тих, хто хоче максимально глибоку, персональну роботу зі мною та індивідуальний супровід</p>
-              <p className={styles.TariffFeatures}>Усе з ALIVE + 4 особисті онлайн-сесії • персональний розбір матриці долі • особистий супровід • доступ до всіх матеріалів курсу назавжди • інтенсив «7 кодів жіночої сили» • інтенсив «Шлях до себе» • інтенсив «Код тілесної свободи» • майбутні оновлення курсу</p>
+              <div className={styles.TariffFeatures}>
+                <div className={styles.TariffFeature}>Усе з ALIVE</div>
+                <div className={styles.TariffFeature}>4 особисті онлайн-сесії</div>
+                <div className={styles.TariffFeature}>Персональний розбір матриці долі</div>
+                <div className={styles.TariffFeature}>Особистий супровід</div>
+                <div className={styles.TariffFeature}>Інтенсив «7 кодів жіночої сили»</div>
+                <div className={styles.TariffFeature}>Інтенсив «Шлях до себе»</div>
+                <div className={styles.TariffFeature}>Інтенсив «Код тілесної свободи»</div>
+                <div className={styles.TariffFeature}>Доступ до матеріалів — назавжди</div>
+              </div>
               <button className={styles.TariffBtn}>Хочу на курс →</button>
             </div>
 
