@@ -19,9 +19,9 @@ export default function Home() {
             4-тижневий простір для жінок, які хочуть вийти з постійного контролю, тривоги та життя «на автоматі», і повернути контакт із собою, тілом, бажаннями та жіночністю
           </div>
 
-          <button className={styles.CTAButton}>
+          <a href="#tariffs" className={styles.CTAButton}>
             Хочу на курс →
-          </button>
+          </a>
         </div>
       </div>
 
@@ -157,7 +157,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={styles.SixthBlock}>
+      <div className={styles.SixthBlock} id="tariffs">
         <div className={styles.Container}>
           <h2 className={styles.SixthTitle}>Обери свій формат участі</h2>
           <p className={styles.TariffFooter}>На кожному тарифі за посиланням є варіант розстрочки до 3х платежів</p>
@@ -180,7 +180,14 @@ export default function Home() {
                 <div className={styles.TariffFeature}>PDF-гайди та чек-листи</div>
                 <div className={styles.TariffFeature}>Доступ до матеріалів — 2 місяці</div>
               </div>
-              <button className={styles.TariffBtn}>Хочу на курс →</button>
+              <a 
+                href="https://secure.wayforpay.com/button/bf0c4c6535ad5"
+                className={styles.TariffBtn}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Хочу на курс →
+              </a>
             </div>
 
             <div className={`${styles.TariffCard} ${styles.TariffFeatured}`}>
@@ -203,7 +210,14 @@ export default function Home() {
                 <div className={styles.TariffFeature}>Доступ до матеріалів – 4 місяці</div>
               </div>
               <p className={styles.TariffBonus}>Перші 10 учасниць додатково отримують доступ до 7-денного інтенсиву</p>
-              <button className={styles.TariffBtn}>Хочу на курс →</button>
+              <a 
+                href="https://secure.wayforpay.com/button/bbfff3d260454"
+                className={styles.TariffBtn}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Хочу на курс →
+              </a>
             </div>
 
             <div className={styles.TariffCard}>
@@ -226,7 +240,14 @@ export default function Home() {
                 <div className={styles.TariffFeature}>Інтенсив «Код тілесної свободи»</div>
                 <div className={styles.TariffFeature}>Доступ до матеріалів — назавжди</div>
               </div>
-              <button className={styles.TariffBtn}>Хочу на курс →</button>
+              <a 
+                href="https://secure.wayforpay.com/button/b7845fb02e9ad"
+                className={styles.TariffBtn}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Хочу на курс →
+              </a>
             </div>
 
           </div>
@@ -267,10 +288,12 @@ export default function Home() {
             довірся йому
           </p>
           <p className={styles.ClosingSubText}>
-            Це і є той момент, коли ти вибираєш себе.<br />
+            Це і є той момент, коли ти обираєш себе.<br />
             Не «потім, коли буде час». Прямо зараз
           </p>
-          <button className={styles.ClosingBtn}>Хочу на курс →</button>
+          <a href="#tariffs" className={styles.ClosingBtn}>
+            Хочу на курс →
+          </a>
         </div>
       </div> 
     </>
